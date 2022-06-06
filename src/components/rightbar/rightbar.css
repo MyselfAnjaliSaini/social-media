@@ -1,0 +1,30 @@
+.rightbar_container{
+  display: flex;
+  flex: 3.5;
+  width: 100%;
+  /* height: calc(100vh - 85px); */
+  justify-content: center;
+}
+.rightbar_outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 35px;
+}
+.rightbar_bottom {
+  background: #ffffff;
+  border: 1px solid #cdcdcd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  /* align-items: center; */
+  padding: 15px 35px;
+  max-width: 360px;
+}
+.rightbar-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}

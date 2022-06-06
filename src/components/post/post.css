@@ -1,0 +1,140 @@
+.post_icon {
+  font-size: 50px !important;
+}
+
+.text-3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+
+}
+
+.post_container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post_outer {
+  max-width: 641px;
+  background: #ffffff;
+  border: 1px solid #cdcdcd;
+  border-radius: 5px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.post_top {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.post_top_left {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.text-4 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+
+  color: #000000;
+}
+
+.p-l-15 {
+  padding-left: 15px;
+}
+
+.pd-l-10 {
+  padding-left: 10px;
+}
+
+.mg-b-20 {
+  margin-bottom: 20px;
+}
+
+.lighter-c {
+  color: #ababab;
+}
+
+
+
+.post_center {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.img-50 {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.post_links {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  border: 1px solid #D6D6D6;
+}
+
+.post_link {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+  padding: 14px;
+
+}
+
+.post_link:not(:last-child) {
+  border-right: 1px solid #D6D6D6;
+}
+.post_bottom {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* padding-left: 15px; */
+}
+.post_bottom_top {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom:1px solid #D6D6D6;
+  padding-left: 15px;
+}
+.post_img_sec {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+.comment_sec_outer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 15px;
+  margin-top: 28px;
+  gap: 28px;
+  margin-bottom: 40px;
+}
+.comment_sec {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+.add_comment {
+  background: #F3F3F3;
+  border-radius: 10px;
+  padding: 7px 12px;
+}

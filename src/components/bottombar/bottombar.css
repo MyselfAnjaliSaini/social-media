@@ -1,0 +1,32 @@
+.text-2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+  
+    color: #8e8e8e;
+  }
+  .footer_links_outer {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      gap:25px
+  }
+  .footer_links {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      align-items: center;
+      /* justify-content: center; */
+      gap:60px
+  }
+  .copy-sec {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap:3px;
+      /* margin-top: 45px; */
+  }
+  

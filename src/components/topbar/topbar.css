@@ -1,0 +1,86 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --bg-color: #536440;
+}
+.tb_Container {
+  margin: 0 auto;
+  max-width: 1440px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 30px 35px;
+  max-height: 85px;
+  background: var(--bg-color);
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+}
+.tb_logo {
+  flex: 4;
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+}
+.tb_search {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex: 4;
+}
+.tb_links {
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+  flex: 4;
+}
+.logo {
+  font-family: "Berkshire Swash";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 29px;
+  text-align: center;
+  color: #ffffff;
+}
+.search_bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 230px;
+  min-height: 33px;
+  background: #fafafa;
+  border: 2px solid #040404;
+  border-radius: 1px;
+}
+.search_input {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #b0b0b0;
+  border: none;
+  background: none;
+  padding: 0 10px;
+  overflow: hidden;
+  width: max-content;
+}
+.search_input:focus {
+  outline: none;
+}
+.s-icon {
+  position: relative;
+  right: -70px;
+  color: #b0b0b0;
+}
+.tb_links_outer {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.tb_link svg{
+    font-size: 30px;
+}

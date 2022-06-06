@@ -1,0 +1,8 @@
+.feed_container{
+    display: flex;
+    flex: 5.5;
+    width: 100%;
+    flex-direction: column;
+    gap: 50px;
+    /* justify-content: center; */
+}

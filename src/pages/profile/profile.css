@@ -1,0 +1,137 @@
+.profile_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 70px;
+    padding-top: 5px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.img-180 {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.img-250 {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.img-rec {
+    border-radius: 10px;
+}
+
+.text-5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.grey-c {
+    color: #7D7D7D;
+}
+
+.pd-t-35 {
+    margin-top: 35px !important;
+}
+
+.profile_outer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.profile_outer_top {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 25px;
+    padding-bottom: 35px;
+    border-bottom: 2px solid #D6D6D6;
+}
+
+.profile_content_outer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 45px;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile_pics {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.light-btn {
+    background: #FFFFFF;
+    border: 1px solid #CDCDCD;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2F2F2F;
+    max-height: 35px;
+    margin-top: 45px;
+}
+
+.profile_outer_bottom {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile_links {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    gap: 60px;
+}
+
+.profile_link {
+    display: flex;
+    gap: 12px;
+    align-items: flex-end;
+}
+
+.profile_images {
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.profile_image {
+    max-width: 250px;
+    max-height: 250px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.pf_bootombar_outer {
+    width: 35%;
+    margin: 0 auto;
+}

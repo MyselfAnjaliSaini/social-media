@@ -1,0 +1,15 @@
+.main_container {
+  display:flex;
+max-width:1440px;
+width: 100%;
+margin-right: auto;
+margin-left: auto;
+justify-content: center;
+padding: 55px 15px;
+gap: 25px;
+}
+.section_outer {
+display: inline-block;
+width: 100%;
+background: #FAFAFA;
+}
