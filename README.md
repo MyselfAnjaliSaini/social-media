@@ -1,6 +1,8 @@
 # Getting Started with Create React App
- ###Step 1- Install all dependencies using command 
+ ### Step 1- Install all dependencies using command 
 --npm i
+
+###Step 2 - 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
