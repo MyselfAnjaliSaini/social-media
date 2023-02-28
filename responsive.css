@@ -1,0 +1,14 @@
+@media(max-width:1366px){
+    .post_link{
+        width: max-content !important;
+    }
+    .tb_links_outer{
+        gap:10px !important
+    }
+}
+@media(max-width:1023px){
+    .main_container{
+        flex-direction: column !important;
+    }
+}
+
